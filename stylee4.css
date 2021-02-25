@@ -1,0 +1,36 @@
+body {
+    background-color: #544F53;
+    font-family: 'Roboto', sans-serif;;
+    color: white;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-column-gap: 30px ;
+    justify-content: center;
+    align-items: center;
+    
+}
+img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.item {
+    text-align: center;
+}
+.item2 {
+    text-align: start;
+    margin-bottom: 5px;
+}
+
+.small-box {
+    color: blanchedalmond;
+    background-color:  #AB1F83 ;
+    width: 20px;
+    position: relative;
+    bottom : -19px
+}
