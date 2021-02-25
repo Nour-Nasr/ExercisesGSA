@@ -1,0 +1,40 @@
+body {
+    background-color: lightskyblue;
+}
+
+#wrap {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width : 50%;
+    background-color: pink;
+}
+
+#nav {
+    display: flex;
+    flex-direction: column;
+    background-color: mediumblue;
+    width :400px ;
+    padding: 1rem;
+    margin-right: 30px;
+    color: mintcream;
+    
+    
+}
+a {
+    color: palevioletred;
+}
+
+li {
+    list-style: none;
+
+}
+
+#content{
+    display: flex;
+    flex-direction : column ;
+    text-align: center;
+    padding: 1rem 1rem 1rem 0px;
+    color: mediumblue;
+}
+
